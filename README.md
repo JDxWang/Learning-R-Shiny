@@ -27,4 +27,4 @@ I am looking to add the following features:
 
 # Side project
 
-Potentially I can write a notification bot that searches user input keywords and notifies them if a matching deal has been posted via a messeging platform of their choice.
+Potentially I can write a notification bot that searches user input keywords and notifies them if a matching deal has been posted via a messaging platform of their choice.
