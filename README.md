@@ -18,7 +18,7 @@ The app in its current state will retrieve the first 10 pages of newest deals an
 
 # Features
 
-1. The user cam choose the number of pages of deals to load.
+1. The user can choose the number of pages of deals to load.
 
 # End Goal
 
