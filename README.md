@@ -6,7 +6,7 @@ It also involves some basic HTML scraping with the package `rvest`.
 
 You can find the current version here: https://jdxwang.shinyapps.io/ozbargain_tags/
 
-Do note that currently it's using a basic for-loop to go through about 200 deals and takes a moment to load.
+The app runs a lot faster locally if you're from Australia. The one hosted at shinyapps.io takes a moment to load.
 
 # Description
 
