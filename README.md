@@ -19,7 +19,7 @@ The app in its current state will retrieve the first X pages of newest deals and
 # Completed Features
 
 1. The user can choose the number of pages, X, of deals to load (up to 10 to avoid potential issues with OzBargain's server).
-2. The app reads other relevant post informations.
+2. The app reads other relevant post information.
 
 # Roadmap
 
