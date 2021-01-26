@@ -16,14 +16,17 @@ Each deal will have one or more associated tags. E.g. A deal of discounted lapto
 
 The app in its current state will retrieve the first 10 pages of newest deals and present a pie chart of the frequency of each tag.
 
+# Features
+
+1. The user cam choose the number of pages of deals to load.
+
 # End Goal
 
 I am looking to add the following features:
 
-1. Allow the user to choose the number of pages of deals to load.
-2. Have an interactive chart where the user can see the top deal (the deal with most user likes) of each tag.
-3. The user can see all deals under each tag via external links to OzBargain.
-4. Tables that list popular deals (OzBargain have this feature but the threshold for "popular" is rather high)
+1. Have an interactive chart where the user can see the top deal (the deal with most user likes) of each tag.
+2. The user can see all deals under each tag via external links to OzBargain.
+3. Tables that list popular deals (OzBargain have this feature but the threshold for "popular" is rather high)
 
 # Side project
 
