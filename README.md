@@ -14,11 +14,11 @@ OzBargain is an Australian website that allows users to post "deals" (i.e. disco
 
 Each deal will have one or more associated tags. E.g. A deal of discounted laptops will have the tag "Computing".
 
-The app in its current state will retrieve the first 10 pages of newest deals and present a pie chart of the frequency of each tag.
+The app in its current state will retrieve the first X pages of newest deals and present a pie chart of the frequency of each tag.
 
 # Completed Features
 
-1. The user can choose the number of pages of deals to load.
+1. The user can choose the number of pages, X, of deals to load (up to 10 to avoid potential issues with OzBargain's server).
 
 # Roadmap
 
