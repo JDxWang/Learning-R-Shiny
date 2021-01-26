@@ -19,6 +19,7 @@ The app in its current state will retrieve the first X pages of newest deals and
 # Completed Features
 
 1. The user can choose the number of pages, X, of deals to load (up to 10 to avoid potential issues with OzBargain's server).
+2. The app reads other relevant post informations.
 
 # Roadmap
 
@@ -31,4 +32,5 @@ I am looking to add the following features:
 
 # Side project
 
-Potentially I can write a notification bot that searches user input keywords and notifies them if a matching deal has been posted via a messaging platform of their choice.
+1. Potentially I can write a notification bot that searches user input keywords and notifies them if a matching deal has been posted via a messaging platform of their choice.
+2. A machine learning project where I predict the tag based on the title text.
