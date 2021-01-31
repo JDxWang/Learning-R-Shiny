@@ -18,6 +18,8 @@ The app in its current state will retrieve the first X pages of newest deals and
 
 # Example Chart
 
+![Example](https://user-images.githubusercontent.com/69374275/106381181-1b472f80-640b-11eb-9142-f795f1d895fa.png)
+
 # Completed Features
 
 1. The user can choose the number of pages, X, of deals to load (up to 10 to avoid potential issues with OzBargain's server).
