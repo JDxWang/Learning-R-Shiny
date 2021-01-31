@@ -14,21 +14,27 @@ OzBargain is an Australian website that allows users to post "deals" (i.e. disco
 
 Each deal will have one or more associated tags. E.g. A deal of discounted laptops will have the tag "Computing".
 
-The app in its current state will retrieve the first X pages of newest deals and present a pie chart of the frequency of each tag.
+The app in its current state will retrieve the first X pages of newest deals and present a bar chart of the frequency of each tag.
+
+# Example Chart
 
 # Completed Features
 
 1. The user can choose the number of pages, X, of deals to load (up to 10 to avoid potential issues with OzBargain's server).
 2. The app reads other relevant post information.
+3. Plot constructed with `ggplot`.
 
 # Roadmap
 
 I am looking to add the following features:
 
-1. Improve the visuals of the pie chart.
-2. Have an interactive chart where the user can see the top deal (the deal with most user likes) of each tag.
-3. The user can see all deals under each tag via external links to OzBargain.
-4. Tables that list popular deals (OzBargain have this feature but the threshold for "popular" is rather high)
+1. Have an interactive chart where the user can see the top deal (the deal with most user likes) of each tag.
+2. The user can see all deals under each tag via external links to OzBargain.
+3. Tables that list popular deals (OzBargain have this feature but the threshold for "popular" is rather high)
+
+# Issues
+
+The ordering of frequency required some inefficient workaround and I have no clue how to improve yet.
 
 # Side project
 
