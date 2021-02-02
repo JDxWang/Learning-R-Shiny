@@ -17,7 +17,7 @@ ui <- fluidPage(
            numericInput("pages", label = "Choose the number of pages to load (1 to 10)", value = 10, max = 10, min = 1)
            ),
     column(6,
-           h3("Hover over any tag to the the top deal of that category!"),
+           h3("Hover over any column to see the top deal of that category!"),
            h4(uiOutput("top_deals"))
           )
          )
