@@ -25,14 +25,14 @@ The app in its current state will retrieve the first X pages of newest deals and
 1. The user can choose the number of pages, X, of deals to load (up to 10 to avoid potential issues with OzBargain's server).
 2. The app reads other relevant post information.
 3. Plot constructed with `ggplot`.
+4. The user can see the top deal (the deal with most user likes) of each tag by hovering over the graph.
 
 # Roadmap
 
 I am looking to add the following features:
 
-1. Have an interactive chart where the user can see the top deal (the deal with most user likes) of each tag.
-2. The user can see all deals under each tag via external links to OzBargain.
-3. Tables that list popular deals (OzBargain have this feature but the threshold for "popular" is rather high)
+1. The user can see all deals under each tag via external links to OzBargain.
+2. Tables that list popular deals (OzBargain have this feature but the threshold for "popular" is rather high)
 
 # Issues
 
