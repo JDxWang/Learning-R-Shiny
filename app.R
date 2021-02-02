@@ -22,7 +22,10 @@ ui <- fluidPage(
       
       # Pie chart output
       
-      plotOutput("tag_freq")
+      plotOutput(outputId = "tag_freq",
+                 hover = hoverOpts("hover")),
+      
+      verbatimTextOutput("top_deals")
       
     )
   )
@@ -62,12 +65,18 @@ server <- function(input, output) {
     
   })
   
+  output_topdeals <- reactive({
+    
+    ozb_data %>% group_by(tags) %>% slice(which.max(upvote))
+    
+  })
+  
   
   output$tag_freq <- renderPlot({
     output_tags() %>% ggplot(aes(x=factor(output_tags()$., level=output_tags()$.), y=Freq, fill=.)) +
                                labs(title="Frequency of Tags", x="Tag", y="Frequency") +
                                geom_bar(stat="identity") +
-                               geom_text(aes(label=Freq), vjust = 1, color = "black", size = 5) +
+                               geom_text(aes(label=Freq), vjust = 1.1, color = "black", size = 7) +
                                theme(legend.position = "none", text=element_text(size=20), axis.text.x = element_text(angle=45, hjust=1))
     
     },
